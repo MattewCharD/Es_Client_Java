@@ -22,12 +22,12 @@ public class Main {
         String message;
         do {
             message = sc.nextLine();
+            
+            out.writeBytes( message + "\n");
+            String stringaRicevuta = in.readLine();
             if (message.equals("!") ) {
                 break;
             }
-
-            out.writeBytes( message + "\n");
-            String stringaRicevuta = in.readLine();
             String stringaMaiuscola = stringaRicevuta.toUpperCase();
             System.out.println("La stringa restituita è: " + stringaMaiuscola);
 
