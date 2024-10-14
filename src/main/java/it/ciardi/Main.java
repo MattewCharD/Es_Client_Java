@@ -28,7 +28,7 @@ public class Main {
             if (message.equals("!") ) {
                 break;
             }
-            String stringaMaiuscola = stringaRicevuta.toUpperCase();
+            String stringaMaiuscola = stringaRicevuta;
             System.out.println("La stringa restituita è: " + stringaMaiuscola);
 
             
